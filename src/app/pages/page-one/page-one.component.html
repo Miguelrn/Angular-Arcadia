@@ -1,0 +1,12 @@
+<mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Search</mat-label>
+    <!-- <input matInput placeholder="Lorem" [(ngModel)]="value" type="text"> -->
+    <input #search matInput type="text" value="">
+</mat-form-field>
+{{search.value}}
+<mat-grid-list [cols]="2" rowHeight="2:1">
+  <mat-grid-tile *ngFor="let item of searchList">
+    <app-search-item-card [itemCard]="item">         
+    </app-search-item-card>
+  </mat-grid-tile>
+</mat-grid-list>

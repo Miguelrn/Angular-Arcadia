@@ -1,0 +1,2 @@
+export const SEARCH_ORIGIN_CARD = ['#e97c3d', '#f2d731', '#423ab4', '#55d0ff', '#47d642', '#ce3ee8'];
+// export const COLOR_BLIND_PALETTE = ['#999999', '#E69F00', '#56B4E9', '#009E73', '#0072B2', '#D55E00', '#CC79A7'];
